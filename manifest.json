@@ -1,0 +1,26 @@
+{
+  "name": "GoPro plus extension",
+  "short_name": "GoPro Extension",
+  "version": "1.0",
+  "version_name": "alpha_poc",
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "description": "A chrome extension that lets you download all the videos in a shared link in the original quality.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "name": "Click to change the icon's color"
+  },
+  "manifest_version": 2
+}
